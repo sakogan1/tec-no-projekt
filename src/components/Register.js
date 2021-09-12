@@ -27,7 +27,7 @@ const Home = (props) => {
                     console.log(userCredential)
                     var user = userCredential.user;
                     props.setUser(user)
-                    setErrors(null)
+                    setErrors("Registration succeeded. Go Back to Login.")
                 })
                 .catch((error) => {
                     console.log(error)
