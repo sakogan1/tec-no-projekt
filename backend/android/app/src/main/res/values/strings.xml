@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">tec.no-backend</string>
+    <string name="title_activity_main">tec.no-backend</string>
+    <string name="package_name">com.tec.nobackend.app</string>
+    <string name="custom_url_scheme">com.tec.nobackend.app</string>
+</resources>
