@@ -8,10 +8,8 @@ export default class RedirectPage extends React.Component {
     try {
      
       const access_token = hash.access_token;
-      console.log(access_token)
       const expiryTime = new Date().getTime() + access_token.expires_in * 1000;
       localStorage.setItem('params', JSON.stringify(access_token));
-      console.log(access_token)
       localStorage.setItem('expiry_time', expiryTime);
       history.push('/dashboard');
     } catch (error) {
