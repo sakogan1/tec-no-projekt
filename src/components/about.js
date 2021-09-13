@@ -4,7 +4,7 @@ import { Container } from 'reactstrap';
 import about from "./about.jpg";
 const About = (props) => {
   const {
-    buttonLabel,
+   // buttonLabel,
     className
   } = props;
   

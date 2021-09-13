@@ -5,8 +5,6 @@ import ReactPlayer from 'react-player'
 import { Container } from 'reactstrap';
 import firebase from "./components/api/firebase"
 
-const ref = firebase.firestore()
-
 
 function CardsFirebase() {
   const [cards,setCards]=useState([])

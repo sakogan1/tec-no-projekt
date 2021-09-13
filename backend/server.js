@@ -25,7 +25,7 @@ app.get('/', function (req, res) { res.status(200).send('UP AND FULL RUNNING'); 
 
 
 
-app.post("/tec.no/card", (req, res)=>{
+app.post("/card", (req, res)=>{
     const dbCard = req.body;
 
     Cards.create(dbCard, (err,data) =>{
@@ -38,7 +38,7 @@ app.post("/tec.no/card", (req, res)=>{
     });
 
 
-   app.get("/tec.no/card", (req, res)=>{
+   app.get("/card", (req, res)=>{
         
         Cards.find ((err,data) => {
             if(err){

@@ -1,5 +1,4 @@
 import React from 'react';
-import _ from 'lodash';
 import hash from "./api/hash";
 
 export default class RedirectPage extends React.Component {
